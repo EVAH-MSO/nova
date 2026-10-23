@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact &amp; Delivery — Alena Supermart</title>
+<meta name="description" content="Order groceries from Alena Supermart in Kutus. Call, WhatsApp, or send your list. Same-day delivery.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container d-flex justify-content-between align-items-center">
+    <span>Open today 7:00 AM &ndash; 9:00 PM</span>
+    <span class="d-none d-md-inline">Free delivery in Kutus on orders over KES 1,500</span>
+  </div>
+</div>
+
+<nav class="navbar navbar-expand-lg sticky-top site-nav">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><span class="brand-mark">A</span> Alena<span class="brand-thin">Supermart</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#products">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        <li class="nav-item ms-lg-3"><a class="btn btn-order" href="contact.html">Order now</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="container">
+    <h1>Order &amp; contact</h1>
+    <p>Send your shopping list and we will pack and deliver it today.</p>
+  </div>
+</header>
+
+<main class="section">
+  <div class="container">
+    <div class="row g-5">
+
+      <div class="col-lg-7">
+        <h2 class="mb-4">Send your shopping list</h2>
+        <form id="contactForm" class="needs-validation" novalidate>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label for="name" class="form-label">Your name</label>
+              <input type="text" class="form-control" id="name" required>
+              <div class="invalid-feedback">Please enter your name.</div>
+            </div>
+            <div class="col-md-6">
+              <label for="phone" class="form-label">Phone or WhatsApp</label>
+              <input type="tel" class="form-control" id="phone" required>
+              <div class="invalid-feedback">Please enter a phone number.</div>
+            </div>
+            <div class="col-12">
+              <label for="area" class="form-label">Delivery area</label>
+              <select class="form-select" id="area" required>
+                <option value="">Choose your area</option>
+                <option>Kutus Town</option>
+                <option>Kagio</option>
+                <option>Kutus outskirts</option>
+                <option>I will collect in store</option>
+              </select>
+              <div class="invalid-feedback">Please choose a delivery area.</div>
+            </div>
+            <div class="col-12">
+              <label for="list" class="form-label">Your list</label>
+              <textarea class="form-control" id="list" rows="6" placeholder="e.g. 2 kg maize flour, 1 bunch sukuma, 1 L cooking oil, 6 eggs" required></textarea>
+              <div class="invalid-feedback">Please enter what you need.</div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary btn-lg w-100">Send order</button>
+              <p id="formStatus" class="form-success mt-3 mb-0 d-none">Thank you &mdash; we have your list and will call you to confirm the total.</p>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-lg-5">
+        <h2 class="mb-4">Visit or call</h2>
+        <ul class="contact-list">
+          <li><strong>Phone / WhatsApp</strong><br><a href="tel:+254112648757">+254 112 648 757</a></li>
+          <li><strong>Email</strong><br><a href="mailto:orders@alenasupermart.co.ke">orders@alenasupermart.co.ke</a></li>
+          <li><strong>Shop address</strong><br>Kutus Town, Kirinyaga County, Kenya</li>
+          <li><strong>Opening hours</strong><br>Monday to Saturday, 7:00 AM &ndash; 9:00 PM<br>Sunday, 8:00 AM &ndash; 8:00 PM</li>
+        </ul>
+
+        <div class="info-card">
+          <h3>Delivery</h3>
+          <p>Same-day delivery across Kutus for orders placed before 3:00 PM. Free on orders over KES 1,500; otherwise KES 100 within town.</p>
+        </div>
+
+        <div class="info-card">
+          <h3>Collections</h3>
+          <p>Prefer to collect? Send your list, we will pack it, and you can pick it up from the counter without queueing.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <a class="footer-brand" href="index.html"><span class="brand-mark">A</span> Alena Supermart</a>
+        <p class="footer-text mt-3">Fresh groceries and household essentials for Kutus and greater Kirinyaga County.</p>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="index.html#fresh">Fresh produce</a></li>
+          <li><a href="index.html#pantry">Pantry</a></li>
+          <li><a href="index.html#household">Household</a></li>
+          <li><a href="index.html#care">Personal care</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Delivery</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h4>Visit us</h4>
+        <p class="footer-text">Kutus Town, Kirinyaga County<br>Open daily 7:00 AM &ndash; 9:00 PM<br><a href="tel:+254112648757">+254 112 648 757</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; <span id="year"></span> Alena Supermart. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
